@@ -1,0 +1,38 @@
+.navbar-custom{
+    background-color:#ffffe6;
+    position:sticky;
+    top:0;
+    z-index:999;
+}
+
+.navLinks{
+    display:flex;
+    align-items: center;
+}
+
+.navbarLink{
+    margin-right:20px;
+    font-size:14px;
+    letter-spacing: 4px;
+    cursor:pointer;
+}
+
+.navbarLink:hover{
+    color:#cc6600;
+}
+
+.navbarButton{
+    border:1px solid black;
+    background-color:white;
+    color:black;
+    padding:15px 20px;
+    text-align:center;
+    letter-spacing:4px;
+    font-size:14px;
+}
+
+.navbarButton:hover{
+    background-color: #004d4d;
+    color:white;
+}
+

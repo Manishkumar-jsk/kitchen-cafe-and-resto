@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+.gallery-container{
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom:80px;
+}
+
+.gallery-text{
+    margin-left:100px;
+}
+
+.gallery-heading{
+    font-size:3rem;
+}
+
+hr.gallery-line{
+    width:350px;
+    border:1px solid #ff3300;
+}
+
+.gallery-desc{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.galleryButton{
+    border:1px solid black;
+    background-color:white;
+    color:black;
+    padding:15px 20px;
+    text-align:center;
+    letter-spacing:4px;
+    font-size:14px;
+}
+
+.galleryButton:hover{
+    background-color: #004d4d;
+    color:white;
+}
+
+.gallery-container-1{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+    margin-top:200px;
+    margin-bottom:200px;
+
+}
+
+
+.gallery-text-1{
+    max-width:20%;
+    margin-right:100px;
+}
+
+.gallery-img-container-1{
+    margin-left:50px
+}
+
+.gallery-desc-1{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.gallery-button{
+    margin-top:30px;
+}
+
+@media screen and (max-width:1224px) {
+    .gallery-container{
+        margin-left:40px;
+        margin-right: 40px;
+    }
+
+    .gallery-heading{
+        font-size:2rem;
+    }
+
+    .gallery-heading-1{
+        font-size:2rem;
+    }
+
+    .gallery-text{
+        margin-left:0px;
+        margin-top:120px;
+    }
+
+    .gallery-text-1{
+        max-width:80%;
+        margin-right:0px;
+    }
+
+    .gallery-container-1{
+        margin-left:40px;
+        margin-right: 40px;
+        
+    }
+    
+    .gallery-img-container-1{
+        margin-left:0px;
+        margin-top:80px
+    }
+    
+  }
